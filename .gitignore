@@ -1,0 +1,69 @@
+# Environment & Secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+.env.production.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+.secrets/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# IDE & OS
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.env.swp
+.vs/
+.vscode/settings.json
+
+# Redis & Local DB
+dump.rdb
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Misc
+.cache/
+*.tmp
+temp/
+.turbo/

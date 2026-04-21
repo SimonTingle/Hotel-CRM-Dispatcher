@@ -1,0 +1,25 @@
+{
+  "faq_wifi": {
+    "intent": "faq",
+    "confidence": 0.97,
+    "detected_language": "en",
+    "summary": "Guest asking about wifi password",
+    "suggested_faq_keys": ["wifi", "internet", "password"]
+  },
+  "maintenance_shower": {
+    "intent": "maintenance",
+    "confidence": 0.93,
+    "detected_language": "en",
+    "summary": "Broken shower with water leak",
+    "suggested_faq_keys": []
+  },
+  "checkout": {
+    "intent": "checkout",
+    "confidence": 0.91,
+    "detected_language": "es",
+    "summary": "Guest indicating checkout",
+    "suggested_faq_keys": []
+  },
+  "malformed": "this is not valid JSON {{{",
+  "empty_object": {}
+}
